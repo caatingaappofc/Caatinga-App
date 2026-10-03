@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raízes da Caatinga</title>
+  <meta name="description" content="Sementes, restauração e produtos nativos do único bioma exclusivamente brasileiro.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero" id="inicio">
+  <nav class="nav" aria-label="Principal">
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Raízes</a>
+    <a href="#inicio" class="nav-logo" aria-label="Raízes da Caatinga"><span></span></a>
+    <a href="#solucoes">Soluções</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <h1 class="giant" aria-label="Caatinga">Caatinga</h1>
+
+  <div class="tree" role="img" aria-label="Logo: árvore com raízes"></div>
+
+  <p class="cap cap-l">Inspirado nos padrões<br>de resistência</p>
+  <p class="cap cap-r">Movido pela<br>força da raiz</p>
+  <a href="#sobre" class="play" aria-label="Conhecer a história"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M8 5v14l11-7z" fill="#111"/></svg></a>
+
+  <div class="panel">
+    <div class="panel-main">
+      <h2>Raízes da<br>caatinga</h2>
+      <a href="#solucoes" class="pill">Ver produtos</a>
+      <p class="sub">Moldado pela seca.<br>Refinado pelo cuidado.</p>
+    </div>
+    <p class="mini">laboratório de<br>bioma nativo</p>
+    <aside class="card">
+      <small>Em destaque</small>
+      <p>Da seca nasce<br>o futuro verde</p>
+      <div class="tags"><span>Sementes</span><span>Restauração</span></div>
+    </aside>
+  </div>
+</header>
+
+<main>
+  <section class="sobre" id="sobre">
+    <p class="statement">Na caatinga, cada planta aprendeu a esperar a chuva. Nós aprendemos com elas.</p>
+    <div class="cols">
+      <p>Trabalhamos com comunidades do sertão para coletar sementes nativas, recuperar áreas degradadas e levar ao mercado produtos que nascem do próprio bioma.</p>
+      <p>Cada projeto parte da raiz: o que já existe no solo, na cultura local e no ritmo das chuvas.</p>
+    </div>
+  </section>
+
+  <section class="solucoes" id="solucoes">
+    <h2>O que fazemos</h2>
+    <ul>
+      <li><h3>Sementes nativas</h3><p>Coleta e banco de sementes de umbuzeiro, aroeira e juazeiro.</p><span>Sementes</span></li>
+      <li><h3>Restauração de áreas</h3><p>Plantio e manejo para devolver cobertura vegetal ao solo seco.</p><span>Restauração</span></li>
+      <li><h3>Produtos do bioma</h3><p>Umbu, licuri e mel do sertão, direto das comunidades produtoras.</p><span>Produtos</span></li>
+    </ul>
+  </section>
+</main>
+
+<footer class="contato" id="contato">
+  <div>
+    <h2>Vamos plantar<br>juntos?</h2>
+    <p>Deixe seu e-mail e receba novidades dos projetos.</p>
+  </div>
+  <form id="form" novalidate>
+    <label for="email">Seu e-mail</label>
+    <div class="field">
+      <input id="email" type="email" placeholder="nome@email.com" required>
+      <button class="pill pill-light" type="submit">Enviar</button>
+    </div>
+    <p id="msg" role="status" aria-live="polite"></p>
+  </form>
+  <small>© 2026 Raízes da Caatinga</small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
