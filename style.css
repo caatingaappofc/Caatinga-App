@@ -148,3 +148,16 @@ ul{list-style:none}
   html{scroll-behavior:auto}
   .giant,.tree{animation:none}
 }
+
+
+.about{
+    border-radius: 10px;
+    color: var(--paper);
+    background-color: var(--ink);
+    padding: 6px 12px;
+    
+}
+.biggest{
+    margin-top: 10px;
+    display: inline-block;
+}
